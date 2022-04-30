@@ -114,7 +114,7 @@
 </script>
 
 <div class="container">
-  <PageHeader path="Pages / Home" title="Home" />
+  <PageHeader path="Pages / Customers" title="Customers" />
   <div class="content-grid">
     <div class="content-grid__upper">
       <div class="content"></div>
@@ -133,7 +133,6 @@
           classNameSelect="{['custom-select']}"
         />
       </div>
-      <div class="content content--padded"></div>
     </div>
   </div>
 </div>
@@ -150,14 +149,14 @@
 
   .content-grid__upper {
     display: grid;
-    grid-template-columns: 2fr 2fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     grid-auto-rows: 96px;
   }
 
   .content-grid__lower {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 
